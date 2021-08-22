@@ -1,0 +1,11 @@
+/* --- VARS --- */
+body {
+    --title-color: #222;
+    --title-size: 36px;
+    --color-1: rgb(115, 181, 94);
+    --color-2: rgb(241, 248, 239);
+    --color-3: rgb(255, 0, 0);
+    --font-color: #222;
+    --color-active: rgb(0, 92, 151);
+}
+/* --- /vars --- */

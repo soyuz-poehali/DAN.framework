@@ -1,0 +1,19 @@
+.modal_left {
+	display: flex;
+    align-items: center;
+    margin-right: 5px;
+    text-align: right;
+    justify-content: flex-end;
+    flex-basis: 200px;
+    min-height: 50px;
+}
+
+.modal_right {
+	display: flex;
+    align-items: center;
+    margin-left: 5px;
+    text-align: left;
+    justify-content: flex-start;
+    flex-basis: 200px;
+    min-height: 50px;
+}

@@ -1,0 +1,114 @@
+html, body {
+	height: 100vh;
+}
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	color: #222;
+	--color-1: rgb(0, 92, 151);
+	--color-2: rgb(54, 55, 149);
+	--color-active: rgb(0, 92, 151);
+	background: radial-gradient(circle farthest-corner at 80% 60%, #31043b, #07001e);
+	background: url(/administrator/templates/images/fon.jpg);
+	background-size: cover;
+	background-position: bottom;
+}
+
+* {
+	box-sizing:border-box;
+}
+
+.a_wh_center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.a_form_login {
+	padding: 40px;
+	background: rgb(255 255 255 / 62%);
+	border-radius: 30px;
+	backdrop-filter: blur(10px);
+	color: #fff;
+}
+
+.a_enter_button {
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: normal;
+    box-shadow: 1px 1px 5px rgb(0 0 0 / 15%);
+    border-radius: 40px;
+    text-decoration: none;
+    border: none;    
+    background: var(--color-1);
+    text-align: center;
+    color: #fff;
+	cursor: pointer;
+    transform: scale(1);
+	transition: all 0.2s;
+}
+
+.a_form_control {
+  width: 300px;  
+  position: relative;
+}
+
+.a_form_control input {
+  display: block;
+  outline: none;
+  width: 100%;
+  background: #fff;
+  border: 2px solid #fcc;
+  padding: 15px;
+  font-size: 18px;
+  color: #500;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.a_form_control label {
+  pointer-events: none;
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  left: 15px;
+  color: #aaa;
+  font-size: 18px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+  transition: .2s;
+}
+
+
+.a_form_control input:valid + label,
+.a_form_control input:focus + label {
+  align-items: start;
+  font-size: 10px;
+}
+
+.a_captcha {
+  display: block;
+  margin: 5px 10px 5px 0px;
+  height: 38px;
+}
+
+#code {
+  width: 100px;
+}
+
+.a_code_label {
+  top: 5px !important;
+  left: 120px !important;
+}
+
+input:focus + label.a_code_label {
+  top: 6px !important;
+}

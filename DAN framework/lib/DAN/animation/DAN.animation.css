@@ -1,0 +1,182 @@
+.dan_animation_top_1 {
+	position: relative;
+	bottom: 200px;
+	opacity: 0;
+	animation: animation_top_1 1s forwards;
+}
+
+@keyframes animation_top_1 {
+	to {
+		bottom: 0px;
+		opacity: 1;
+	}
+}
+
+.dan_animation_top_2 {
+	position: relative;
+	bottom:200px;
+	opacity: 0;
+	animation: animation_top_2 1s 0.25s forwards;
+}
+
+@keyframes animation_top_2 {
+	to {
+		bottom: 0px;
+		opacity: 1;
+	}
+}
+
+.dan_animation_top_3 {
+	position: relative;
+	bottom: 200px;
+	opacity: 0;
+	animation: animation_top_3 1s 0.5s forwards;
+}
+
+@keyframes animation_top_3 {
+	to {
+		bottom: 0px;
+		opacity: 1;
+	}
+}
+
+.dan_animation_top_4 {
+	position: relative;
+	bottom: 200px;
+	opacity: 0;
+	animation: animation_top_4 1s 0.75s forwards;
+}
+
+@keyframes animation_top_4 {
+	to {
+		bottom: 0px;
+		opacity: 1;
+	}
+}
+
+.dan_animation_right {
+	position: relative;
+	left: 200px;
+	opacity: 0;
+	animation: animation_right 1s forwards;
+}
+
+@keyframes animation_right {
+	to {
+		left: 0px;
+		opacity: 1;
+	}
+}
+
+.dan_animation_bottom_1 {
+	position: relative;
+	top: 200px;
+	opacity: 0;
+	animation: animation_bottom_1 1s forwards;
+}
+
+@keyframes animation_bottom_1 {
+	to {
+		top: 0px;
+		opacity: 1;
+	}
+}
+
+.dan_animation_bottom_2 {
+	position: relative;
+	top: 200px;
+	opacity: 0;
+	animation: animation_bottom_2 1s 0.25s forwards;
+}
+
+@keyframes animation_bottom_2 {
+	to {
+		top: 0px;
+		opacity: 1;
+	}
+}
+
+.dan_animation_bottom_3 {
+	position: relative;
+	top: 200px;
+	opacity: 0;
+	animation: animation_bottom_3 1s 0.5s forwards;
+}
+
+@keyframes animation_bottom_3 {
+	to {
+		top: 0px;
+		opacity: 1;
+	}
+}
+
+.dan_animation_bottom_4 {
+	position: relative;
+	top: 200px;
+	opacity: 0;
+	animation: animation_bottom_4 1s 0.75s forwards;
+}
+
+@keyframes animation_bottom_4 {
+	to {
+		top: 0px;
+		opacity: 1;
+	}
+}
+
+.dan_animation_left {
+	position: relative;
+	right: 200px;
+	animation: animation_left 1s forwards;
+}
+
+@keyframes animation_left {
+	to {
+		right: 0px;
+		opacity: 1;
+	}
+}
+
+.dan_animation_transparency_1 {
+	opacity: 0;
+	animation: animation_transparency_1 1s forwards;
+}
+
+@keyframes animation_transparency_1 {
+	to {
+		opacity: 1;
+	}
+}
+
+.dan_animation_transparency_2 {
+	opacity: 0;
+	animation: animation_transparency_2 1s 0.25s forwards;
+}
+
+@keyframes animation_transparency_2 {
+	to {
+		opacity: 1;
+	}
+}
+
+.dan_animation_transparency_3{
+	opacity: 0;
+	animation: animation_transparency_3 1s 0.5s forwards;
+}
+
+@keyframes animation_transparency_3 {
+	to {
+		opacity: 1;
+	}
+}
+
+.dan_animation_transparency_4 {
+	opacity: 0;
+	animation: animation_transparency_4 1s 0.75s forwards;
+}
+
+@keyframes animation_transparency_4 {
+	to {
+		opacity: 1;
+	}
+}

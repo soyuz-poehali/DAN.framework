@@ -1,0 +1,12 @@
+ #e_status_line{
+	position: fixed;
+    z-index: 11000;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: #000000;
+    background-color: #ffff00;
+    box-shadow: 1px 1px 1px RGBA(0,0,0,0.5);	 
+ }
